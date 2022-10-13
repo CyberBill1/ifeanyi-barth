@@ -1,0 +1,17 @@
+
+.time-container{
+    font-family: "Arial", Helvetica, sans-serif;
+    padding: 30px;
+    color: rgb(243, 226, 226);
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    right: 85%;
+    transform: translate(50%, -50%);
+    font-size: 50px;
+    white-space: nowrap;
+}
+#date{
+  font-size: 30px;
+ padding-left: 20%;
+}
