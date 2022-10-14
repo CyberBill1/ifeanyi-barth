@@ -5,10 +5,10 @@
     color: rgb(243, 226, 226);
     font-weight: bold;
     position: absolute;
-    top: 30%;
-    right: 95%;
+    top: 27%;
+    right: 97%;
     transform: translate(50%, -50%);
-    font-size: 10px;
+    font-size: 15px;
     white-space: nowrap;
 }
 #date{
