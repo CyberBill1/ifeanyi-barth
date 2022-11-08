@@ -180,7 +180,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 *
 */
 .intro-section {
-  padding-top: 150px;
+  padding-top: 100px;
   color: #fff;
 }
 
@@ -194,8 +194,8 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: right;
-    -ms-flex-align: right;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: right;
   }
 }
