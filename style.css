@@ -5,13 +5,13 @@
     color: rgb(243, 226, 226);
     font-weight: bold;
     position: absolute;
-    top: 27%;
+    top: 20%;
     right: 90%;
     transform: translate(50%, -50%);
-    font-size: 10px;
+    font-size: 15px;
     white-space: nowrap;
 }
 #date{
-  font-size: 10px;
+  font-size: 15px;
  padding-left: 10%;
 }
