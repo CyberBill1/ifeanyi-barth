@@ -185,7 +185,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .intro-section .logo, .intro-section p {
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
@@ -194,7 +194,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
+    -webkit-box-align: right;
     -ms-flex-align: center;
     align-items: right;
   }
