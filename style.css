@@ -8,10 +8,10 @@
     top: 27%;
     right: 90%;
     transform: translate(50%, -50%);
-    font-size: 20px;
+    font-size: 10px;
     white-space: nowrap;
 }
 #date{
-  font-size: 20px;
+  font-size: 10px;
  padding-left: 10%;
 }
