@@ -25,6 +25,7 @@ Bootstrapious Boilerplate Template
 
 body {
   color: #555;
+  overflow: hidden;
 }
 
 p {
