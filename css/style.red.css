@@ -62,9 +62,9 @@ section {
 
 .title {
   display: inline-block;
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   font-weight: 100;
-  padding: 10px 0;
+  padding: 5px 0;
   margin-bottom: 44px;
   text-align: center;
   border-bottom: solid 1px #ccc;
