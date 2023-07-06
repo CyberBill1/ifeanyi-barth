@@ -5,8 +5,8 @@
     color: rgb(243, 226, 226);
     font-weight: bold;
     position: absolute;
-    top: 25%;
-    right: 90%;
+    top: 0%;
+    right: 0%;
     transform: translate(50%, -50%);
     font-size: 15px;
     white-space: nowrap;
