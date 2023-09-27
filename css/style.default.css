@@ -60,6 +60,14 @@ section {
   font-weight: 500 !important;
 }
 
+.back-to-top {
+    position: fixed;
+    display: none;
+    left: 30px;
+    bottom: 20px;
+    z-index: 99;
+}
+
 .title {
   display: inline-block;
   font-size: 2.9rem;
