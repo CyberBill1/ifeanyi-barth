@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .arrow-button {
+    position: relative;
+    overflow: hidden;
+    padding-right: 40px; /* Adjust the padding for arrow space */
+    border-radius: 0; /* Remove rounded corners */
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block;
+  }
+
+  .arrow-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #3498db; /* Match button background color */
+    transition: width 0.5s ease;
+  }
+
+  .arrow-button:hover::before {
+    width: 20px; /* Adjust the width to form an arrow */
+  }
+</style>
+</head>
+<body>
+  <a href="#" class="btn btn-secondary text-white arrow-button">Read More</a>
+</body>
+</html>
