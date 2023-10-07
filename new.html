@@ -4,47 +4,32 @@
 <style>
   .custom-button {
     padding: 10px 20px;
-    background-color: #3498db; /* Set the button background color */
-    color: #fff; /* Set the text color */
-    border: none; /* Remove button border if needed */
-    cursor: pointer; /* Add pointer cursor on hover if needed */
-    position: relative;
+    background-color: #3498db; /* Initial button background color */
+    color: #fff; /* Initial text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth color transition */
+    animation: bounce 2s infinite; /* Add a bounce animation */
   }
 
-  .arrow-svg {
-    width: 16px; /* Adjust the arrow SVG width */
-    height: 16px; /* Adjust the arrow SVG height */
-    fill: currentColor; /* Inherit the button's text color */
-    position: absolute;
-    right: 10px; /* Adjust the arrow's position as needed */
-    top: 50%;
-    transform: translateY(-50%);
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px); /* Adjust the bounce height */
+    }
+    60% {
+      transform: translateY(-5px); /* Adjust the bounce height */
+    }
+  }
+
+  .custom-button:hover {
+    background-color: #e74c3c; /* Change color on hover */
   }
 </style>
 </head>
 <body>
-    <button id="arrow-button" class="custom-button">Read More</button>
-    
-    <script>
-        // Create an SVG arrow element
-        const arrowSVG = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        arrowSVG.classList.add("arrow-svg");
-        arrowSVG.setAttribute("viewBox", "0 0 16 16");
-
-        // Create an SVG path for the arrow
-        const arrowPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        arrowPath.setAttribute("d", "M12.293 7.293l-4-4a.996.996 0 00-1.414 0 .999.999 0 000 1.414L10.586 8 6.293 12.293a.999.999 0 101.414 1.414l4-4a.999.999 0 000-1.414z");
-
-        // Append the arrow path to the SVG element
-        arrowSVG.appendChild(arrowPath);
-
-        // Append the SVG element to the button
-        document.getElementById("arrow-button").appendChild(arrowSVG);
-
-        document.getElementById("arrow-button").addEventListener("click", function() {
-            // Redirect to a page or perform an action when the button is clicked.
-            window.location.href = "your_destination_url_here";
-        });
-    </script>
+    <button id="custom-button" class="custom-button">Bouncing Button</button>
 </body>
 </html>
