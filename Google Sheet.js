@@ -1,4 +1,4 @@
-const ScriptURL
+const Scripture ""
 
 5 form.addEventListener('submit', e => {
 
@@ -14,28 +14,4 @@ Google Sheets
 
 .catch(error => console.error('Error!', error.message))
 
-9
-
-10
-
-11 })
-
-JavaScript
-
-37°C Haze 2:03 PM 6/24/2023
-
-Line 11, Column 3
-
-1
-
-4
-
-e.preventDefault()
-
-6
-
-8
-
-Type here to search
-
-Spaces: 2
+})
