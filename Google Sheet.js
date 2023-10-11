@@ -1,14 +1,14 @@
-const Scripture ""
+const ScriptURL= "https://docs.google.com/spreadsheets/d/1x9hpATgR03xkG9ywYk1ZXhffIlbtmjCq8sLGkf89sA0/edit?usp=drivesdk"
 
-5 form.addEventListener('submit', e => {
+const form = document.forms['contact-form']
 
-Google Sheet.htm
+form.addEventListener('submit', e => {
 
-Google Sheets
+e.preventDefault()
 
-2
+fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 
-7 fetch(scriptURL, { method: 'POST', body: new FormData(form)}) .then(response => alert("Thank you! your form is submitted successfully."))
+.then(response => alert("Thank you! your form is submitted successfully." ))
 
 .then(() => { window.location.reload(); })
 
