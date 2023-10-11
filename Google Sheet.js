@@ -1,4 +1,4 @@
-const ScriptURL= "https://docs.google.com/spreadsheets/d/1x9hpATgR03xkG9ywYk1ZXhffIlbtmjCq8sLGkf89sA0/edit?usp=drivesdk"
+/*const scriptURL = ''
 
 const form = document.forms['contact-form']
 
