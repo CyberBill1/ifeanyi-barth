@@ -1,4 +1,4 @@
-/*const scriptURL = ''
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzS4G0WAPu3zkF--CLxFmxgpwX16lCdkSPw5bJR76pSpQDfcebw5OYRngt4A_o_ag23mA/exec'
 
 const form = document.forms['contact-form']
 
@@ -12,6 +12,6 @@ fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 
 .then(() => { window.location.reload(); })
 
-.catch(error => console.error('Error!', error.message)) */
+.catch(error => console.error('Error!', error.message)) 
 
 })
