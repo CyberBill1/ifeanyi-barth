@@ -1,9 +1,3 @@
-C:\Users\seemab\Desktop\youtube\codes.New Google Sheet Google Sheet.js Sublime Text (UNREGISTERED) File Edit Selection Find View Goto Tools Project Preferences Help
-
-Google Sheetjs
-
-3 const form document.forms['contact-form']
-
 const ScriptURL
 
 5 form.addEventListener('submit', e => {
