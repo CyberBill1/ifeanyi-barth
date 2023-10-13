@@ -13,6 +13,7 @@ fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 // you can put any JS code here window.open('d.h', '_blank');//
 windows.open('www.google.com', '_blank');
 
+ ).then((html) => {
  .then(() => { window.location.reload(); })
 
 .catch(error => console.error('Error!', error.message)) 
