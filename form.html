@@ -85,7 +85,33 @@ textarea{
 
 	</div>
 
+<script>
 
+	var form = document.getElementById('sheetdb-form');
+
+form.addEventListener("submit", e => {
+
+body: new FormData(document.getElementById("sheetdb-form")),
+
+response => response. .json()
+
+).then((html) => {
+
+// you can put any JS code here window.open('d.h', '_blank');
+
+});
+
+});
+
+</script>
+
+<script>
+
+e.preventDefault(); fetch(form.action, {
+
+method: "POST",
+
+}).then(
 
 	<!-- <script src="Google Sheet.js"></script> -->
 
