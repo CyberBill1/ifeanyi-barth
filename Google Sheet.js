@@ -1,4 +1,4 @@
-const scriptURL = 'https://sheetdb.io/api/v1/ru0l24z4enpsr'
+const scriptURL = 'https://sheetdb.io/api/v1/vgbvme3cgb2jt'
 
 const form = document.forms['contact-form']
 
