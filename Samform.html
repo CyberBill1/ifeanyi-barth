@@ -65,6 +65,17 @@ main {
 #submit:hover{
 	background-color: green;
 }
+  #intro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/Chimaobi_Atu.jpg) center center no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+  }
   </style>
   
   </head>
@@ -87,8 +98,10 @@ main {
     </header>
     <!-- Intro Image-->
     
-    <section id="intro" style="background: url(img/Chimaobi_Atu.jpg) center center no-repeat; background-size: cover; opacity: 0.5;" class="intro-section pb-2">
-      <div class="container text-center">
+   
+	<!-- <section id="intro" style="background: url(img/Chimaobi_Atu.jpg) center center no-repeat; background-size: cover; opacity: 0.5;" class="intro-section pb-2"> -->
+      section id="intro" class="intro-section pb-2">
+     <div class="container text-center">
         <div data-animate="fadeInRight" class="logo"><img src="img/NA.jpg" alt="logo" width="300"></div>
      <p></p>
           <h1 data-animate="fadeInDown" class="text-shadow mb-2">Ndewo Ndi Be Anyị</h1>
