@@ -54,7 +54,17 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+#submit{
+	border: none;
+	background-color: orangered;
+	color: white;
+	width: 200px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#submit:hover{
+	background-color: green;
+}
   </style>
   
   </head>
@@ -77,9 +87,9 @@ main {
     </header>
     <!-- Intro Image-->
     
-    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+    <section id="intro" style="background: url(img/Chimaobi_Atu.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center">
-        <div data-animate="fadeInRight" class="logo"><img src="img/NA.jpg" alt="logo" width="200"></div>
+        <div data-animate="fadeInRight" class="logo"><img src="img/NA.jpg" alt="logo" width="300"></div>
      <p></p>
           <h1 data-animate="fadeInDown" class="text-shadow mb-2">Ndewo Ndi Be Anyị</h1>
         <p></p>
@@ -307,7 +317,7 @@ main {
                     <textarea name="message" placeholder="Any Message for Me?" rows="4" required="required" class="form-control"></textarea>
                   </div>
                   <div class="col-md-12 text-center">
-                    <button type="submit" class="btn btn-outline-primary">Send message</button>
+                    <button type="submit" class="btn btn-outline-primary" id= summit">Send message</button>
                   </div>
                 </div>
               </div>
