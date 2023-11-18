@@ -1767,17 +1767,16 @@ button.bg-dark:focus {
 .border-danger {
   border-color: #dc3545 !important;
 }
-
+  #4fbfa8
 .border-light {
   border-color: #f8f9fa !important;
 }
-
 .border-dark {
   border-color: #343a40 !important;
 }
 
 .text-primary {
-  color: #4fbfa8 !important;
+  color: #26d48c !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
